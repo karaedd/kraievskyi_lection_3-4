@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<totalFines>
+    <totalFineList>
+        <totalFine>
+            <totalAmount>3092.0</totalAmount>
+            <type>DANGEROUS DRIVING</type>
+        </totalFine>
+        <totalFine>
+            <totalAmount>1920.0</totalAmount>
+            <type>SPEEDING</type>
+        </totalFine>
+        <totalFine>
+            <totalAmount>1656.0</totalAmount>
+            <type>VEHICLE INSURANCE OFFENSES</type>
+        </totalFine>
+        <totalFine>
+            <totalAmount>1260.0</totalAmount>
+            <type>NO HELMET</type>
+        </totalFine>
+    </totalFineList>
+</totalFines>

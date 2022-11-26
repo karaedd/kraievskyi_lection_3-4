@@ -1,0 +1,93 @@
+[
+  {
+    "date_time": "2021-05-05T12:34:01",
+    "first_name": "Ivan",
+    "last_name": "Ivanov",
+    "type": "SPEEDING",
+    "fine_amount": 300.00
+  },
+  {
+    "date_time": "2021-02-02T11:20:09",
+    "first_name": "Alex",
+    "last_name": "Petrenko",
+    "type": "DANGEROUS DRIVING",
+    "fine_amount": 400.00
+  },
+  {
+    "date_time": "2021-03-02T13:56:12",
+    "first_name": "Mukuta",
+    "last_name": "Gusev",
+    "type": "VEHICLE INSURANCE OFFENSES",
+    "fine_amount": 250.00
+  },
+  {
+    "date_time": "2021-06-01T18:32:23",
+    "first_name": "Oleg",
+    "last_name": "Yevtushenko",
+    "type": "SPEEDING",
+    "fine_amount": 300.00
+  },
+  {
+    "date_time": "2021-07-02T11:20:19",
+    "first_name": "Artem",
+    "last_name": "Radko",
+    "type": "DANGEROUS DRIVING",
+    "fine_amount": 400.00
+  },
+  {
+    "date_time": "2021-03-02T13:56:12",
+    "first_name": "Vlad",
+    "last_name": "Vlizko",
+    "type": "VEHICLE INSURANCE OFFENSES",
+    "fine_amount": 250.00
+  },
+  {
+    "date_time": "2021-06-01T12:39:23",
+    "first_name": "Igor",
+    "last_name": "Korolenko",
+    "type": "SPEEDING",
+    "fine_amount": 300.00
+  },
+  {
+    "date_time": "2021-07-02T18:00:19",
+    "first_name": "Michel",
+    "last_name": "Koval",
+    "type": "DANGEROUS DRIVING",
+    "fine_amount": 400.00
+  },
+  {
+    "date_time": "2021-07-02T10:40:19",
+    "first_name": "Georg",
+    "last_name": "Doroshenko",
+    "type": "DANGEROUS DRIVING",
+    "fine_amount": 400.00
+  },
+  {
+    "date_time": "2021-05-02T17:38:12",
+    "first_name": "Pavlo",
+    "last_name": "Pikush",
+    "type": "VEHICLE INSURANCE OFFENSES",
+    "fine_amount": 250.00
+  },
+  {
+    "date_time": "2021-05-05T12:10:03",
+    "first_name": "Ivan",
+    "last_name": "Veremeev",
+    "type": "NO HELMET",
+    "fine_amount": 220.00
+  },
+  {
+    "date_time": "2021-05-05T16:45:09",
+    "first_name": "Stepan",
+    "last_name": "Rukyn",
+    "type": "NO HELMET",
+    "fine_amount": 220.00
+  },
+  {
+    "date_time": "2021-05-05T14:19:22",
+    "first_name": "Vitaliy",
+    "last_name": "Klichko",
+    "type": "NO HELMET",
+    "fine_amount": 220.00
+  }
+]
