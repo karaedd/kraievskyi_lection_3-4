@@ -1,7 +1,7 @@
 package com.kraievskyi.lection.task2.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kraievskyi.lection.task2.model.Fine;
+import com.kraievskyi.lection.task2.model.TotalFine;
 import com.kraievskyi.lection.task2.model.TotalFines;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
@@ -21,17 +21,17 @@ public class ReadWrite {
     private static final String OUTPUT_FILE_PATH = "src/main/resources/task2/out/output.xml";
     private static final String INPUT_FILE_PATH = "src/main/resources/task2/input";
 
-    public List<Fine> readFiles() {
+    public List<TotalFine> readFiles() {
         ObjectMapper jsonMapper = new ObjectMapper();
         Path dir = Paths.get(INPUT_FILE_PATH);
         BufferedReader bufferedReader;
-        List<Fine> fineList = new ArrayList<>();
-        Fine[] fineArray;
+        List<TotalFine> fineList = new ArrayList<>();
+        TotalFine[] fineArray;
 
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(dir, "*.json")) {
             for (Path p : stream) {
                 bufferedReader = Files.newBufferedReader(p);
-                fineArray = jsonMapper.readValue(bufferedReader, Fine[].class);
+                fineArray = jsonMapper.readValue(bufferedReader, TotalFine[].class);
                 Collections.addAll(fineList, fineArray);
             }
             return fineList;
