@@ -2,19 +2,19 @@
 <totalFines>
     <totalFineList>
         <totalFine>
-            <totalAmount>3092.0</totalAmount>
+            <fineAmount>3092.0</fineAmount>
             <type>DANGEROUS DRIVING</type>
         </totalFine>
         <totalFine>
-            <totalAmount>1920.0</totalAmount>
+            <fineAmount>1920.0</fineAmount>
             <type>SPEEDING</type>
         </totalFine>
         <totalFine>
-            <totalAmount>1656.0</totalAmount>
+            <fineAmount>1656.0</fineAmount>
             <type>VEHICLE INSURANCE OFFENSES</type>
         </totalFine>
         <totalFine>
-            <totalAmount>1260.0</totalAmount>
+            <fineAmount>1260.0</fineAmount>
             <type>NO HELMET</type>
         </totalFine>
     </totalFineList>
